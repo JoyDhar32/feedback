@@ -48,10 +48,9 @@ if (isset($_POST['submit'])) {
             }
         }
     } else {
-        $em = "unknown error occurred!";
-        header("Location: index.php?error=$em");
+       
+        echo "error";
     }
-
     session_destroy();
 }
 ?>
